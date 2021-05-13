@@ -1,6 +1,22 @@
+html {
+    height: 1000%;
+    background-size: cover;
+    background: linear-gradient( to top, rgb(0, 110, 255), white);
+}
+
 .css {
-    background-color: #f1ff32;
-    color: purple;
+    background-color: #ffe032;
+    color: rgb(20, 115, 179);
+    border-radius: 5px;
+    border: solid;
+    margin: 30px;
+}
+
+.text-css {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .thumbs-up {
@@ -10,4 +26,87 @@
 
 .js {
     color: red;
+}
+
+.flash {
+    background-color: hsla(17, 93%, 60%, 0.925);
+    padding: 30px;
+    margin: 30px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    border: solid;
+
+}
+
+.flash-icon {
+    width:auto;
+    height: 80px;
+    margin: 30px;
+    float: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.social {
+    background-color: #4267B2;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid;
+    margin: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-social{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.bs {
+    background-color: #8e0cb6b7;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid;
+    margin: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-bs{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.future {
+    background-image: url('../images/4-space.jpeg');
+    background-color: #0a030cb7;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid;
+    margin: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-future{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+img {
+    transition: transform .7s ease-in-out;
+  }
+.facebooklogo {
+    width: 90px;
+    height: 90px;
+}
+.facebooklogo:hover{
+    transform: rotate(360deg);      
+}
+.bslogo {
+    width: 90px;
+    height: 90px;
+}
+.bslogo:hover{
+    transform: rotate(360deg);      
 }

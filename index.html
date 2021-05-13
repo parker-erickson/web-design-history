@@ -1,83 +1,144 @@
 <!DOCTYPE html>
 <html>
-    <?php header( 'Location: /index.html' ) ;  ?>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>History of Web Design Timeline</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/style.css">
-    </head>
-    <body>
-        <div class="main">
-            <div>
-                <p class="1">
-                <h3>August 6, 1991:</h3> 
-                    <p> World Wide Web was announced on August 6, 
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>History of Web Design Timeline</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<hr>
+
+<body>
+    <div class="main">
+        <div>
+            <p class="1">
+                <h3>August 6, 1991:</h3>
+                <p> World Wide Web was announced on August 6,
                     1991, and the first websites were entirely text based without
                     any sort of color or design.
-                    </p>
                 </p>
-            </div>
-<h1>|</h1>
+            </p>
+        </div>
+        <hr>
         <div class="images">
             <div>
                 <p class="image-text">
-                <h3>July 18, 1992:</h3> 
-                    <p> 
-                            Images were able to be uploaded to the internet for the first time.
-                            <img class="thumbs-up" src="./images/pco5zjRzi.jpg"
-                        </p>
+                    <h3>July 18, 1992:</h3>
+                    <p>
+                        Images were able to be uploaded to the internet for the first time.
+                        <img class="thumbs-up" src="./images/pco5zjRzi.jpg">
+                    </p>
                 </p>
             </div>
-            <h1>|</h1>
+        </div>
+        <hr>
         <div class="HTML2">
             <div>
                 <p class="">
-                <h3>July 1994:</h3> 
-                    <p> 
-                            HTML 2 was released which included more support for:
-                            <ol>
-                                <li>Graphics</li>
-                                <li><input placeholder="Forms"></li>
-                                <li> queries</li>
-                                <li> and more features that are essential today</li>
-                            </ol>
-                        </p>
+                    <h3>July 1994:</h3>
+                    <p>
+                        HTML 2 was released which included more support for:
+                        <ol>
+                            <li>Graphics</li>
+                            <li><input placeholder="Forms"></li>
+                            <li> queries</li>
+                            <li> and more features that are essential today</li>
+                        </ol>
+                    </p>
                 </p>
             </div>
-            <h1>|</h1>
-            <div class="">
-                <p class="">
-                    <h3>September, 1995:</h3> 
-                    <p onclick="changeColor()"> <h3 id="js" class="js" onClick="changeColor()">Javascript: </h3>
-                        Created as a scripting language called Mocha to add functionality to websites,
-                        Later bacme known as Javascript
-                    </p>
-                </div>
-                <script>
-                    var isBlue = false
+        </div>
+        <hr>
+        <div class="">
+            <p class="">
+                <h3>September, 1995:</h3>
+                <p onclick="changeColor()">
+                    <h3 id="js" class="js" onClick="changeColor()">Javascript: <sub>click me!</sub>
+                    </h3>
+                    Created as a scripting language called Mocha to add functionality to websites,
+                    Later bacme known as Javascript
+                </p>
+        </div>
+        <script>
+            var isBlue = false
 
-                    function changeColor() {
-                        if(isBlue == true) {
-                        document.getElementById("js").style.color = "red";
-                        isBlue = false
-                         } else{
-                        document.getElementById("js").style.color = "blue";
-                        isBlue = true;
-                         }
-                    }
-                </script>
-                <h1>|</h1>
-                <div class="css">
-                    <p class="3">
-                <h3>December 17, 1996:</h3> 
-                    <p> W3C reccomnedation was released for CSS level 1. 
-                        CSS has since become the standard way to add style and design
-                        to any webpage.
-                    </p>
+            function changeColor() {
+                if (isBlue == true) {
+                    document.getElementById("js").style.color = "red";
+                    isBlue = false
+                } else {
+                    document.getElementById("js").style.color = "blue";
+                    isBlue = true;
+                }
+            }
+        </script>
+        <hr>
+        <div class="css">
+            <div class="text-css">
+                <h3>November, 1996:</h3>
+                <p> W3C reccomnedation was released for CSS level 1.
+                    However, CSS was created by Håkon Wium Lie two years prior.
+                    CSS has since become the standard way to add style and design
+                    to any webpage.
+                </p>
             </div>
         </div>
-    </body>
+        <div class="flash">
+            <p class="">
+                <h3>November, 1996:</h3>
+                <div class="flex">
+                    <img class="flash-icon" src="images/flash-icon.png">
+                    <p>
+                        Adobe Flash is released, and becomes the standard of video rendering
+                        on personal computers
+                    </p>
+                </div>
+        </div>
+        <div class="social">
+            <div class="text-social">
+                <h3>2004 - Present</h3>
+                <div class="flex">
+                    <p> MySpace, Facebook, Reddit and many more host websites that are designed
+                        to easily share and communicate with friends remotely, as well as connect
+                        with others online. Internet companies such as facebook and Google have gone
+                        on to develop the web and create javascript frameworks, helping to make
+                        web design more accessible to everyone.
+                    </p>
+                    <img class="facebooklogo" src="./images/facebook.png">
+                </div>
+            </div>
+        </div>
+        <div class="bs">
+            <div class="text-bs">
+                <h3>2004 - Present</h3>
+                <div class="flex">
+                    <p> created by Twitter, Bootstrap is a library of CSS objects to quickly add style
+                        to websites. Bootstrap has become a standard of website design, because it 
+                        allows for people who don't usually do front end design to quickly add well 
+                        designed components to websites.
+                    </p>
+                    <img class="bslogo" src="./images/bootstrap-4.svg">
+                </div>
+            </div>
+        </div>
+        <div class="future">
+            <div class="text-future">
+                <h3>future</h3>
+                <div class="flex">
+                    <p> The future of web design is in the hands of the companies that are developing
+                         new frameworks and tools that make it easier to build new websites and applications. 
+                         smartphones and personal computers are offering new funtionality for developers 
+                         to take advantage of. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
